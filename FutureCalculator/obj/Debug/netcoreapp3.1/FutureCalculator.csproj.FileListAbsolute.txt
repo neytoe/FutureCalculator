@@ -32,3 +32,4 @@ C:\Users\hp\source\repos\FutureCalculator\FutureCalculator\obj\Debug\netcoreapp3
 C:\Users\hp\source\repos\FutureCalculator\FutureCalculator\obj\Debug\netcoreapp3.1\FutureCalculator.csproj.CopyComplete
 C:\Users\hp\source\repos\FutureCalculator\FutureCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\hp\source\repos\FutureCalculator\FutureCalculator\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\hp\source\repos\FutureCalculator\FutureCalculator\bin\Debug\netcoreapp3.1\libman.json
