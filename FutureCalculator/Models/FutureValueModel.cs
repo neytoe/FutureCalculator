@@ -20,14 +20,14 @@ namespace FutureCalculator.Models
         [Range(1, 50, ErrorMessage = "Number of years  must be between 1 and 50)")]
         public int? Years { get; set; }
 
-        public decimal? Calculate() {
-            int? months = Years * 12;
-            decimal? monthltInterestRate = YearlyInterestRate / 12 / 100;
-            decimal? futureValue = 0;
+        public decimal Calculate() {
+            int months = Years.Value * 12;
+            decimal monthltInterestRate = YearlyInterestRate.Value / 12 / 100;
+            decimal futureValue = 0;
 
             for (var  i = 0; i< months; i++)
             {
-                futureValue = (futureValue + MonthlyInvestment) * (1 + monthltInterestRate);
+                futureValue = (futureValue + MonthlyInvestment.Value) * (1 + monthltInterestRate);
             }
 
             return futureValue;
